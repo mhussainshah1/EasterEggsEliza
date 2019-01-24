@@ -25,6 +25,8 @@ import java.util.Scanner;
  * At the end of the chat, print out the chat history.
  */
 public class Main {
+    public static final String ANSI_RED_BACKGROUND = "\u001B[31m";
+    public static final String ANSI_RESET = "\u001B[0m";
 
     public static void main(String[] args) {
         String[] hedges = {
@@ -47,7 +49,7 @@ public class Main {
 
         Scanner keyboard = new Scanner(System.in);
         String question, answer = "";
-        boolean isPig = false, isCap = false;
+        boolean isPig = false, isCap = false, isRed = false;
 
         System.out.print("Good day. What is your problem? ");
 
@@ -56,12 +58,17 @@ public class Main {
             question = keyboard.nextLine().toLowerCase();
 
             if (question.equalsIgnoreCase("pig")) {
-                isPig = isPig(isPig);
+                isPig = onOff(isPig);
                 continue;
             }
 
             if (question.equalsIgnoreCase("caps")) {
-                isCap = isCap(isCap);
+                isCap = onOff(isCap);
+                continue;
+            }
+
+            if (question.equalsIgnoreCase("red")) {
+                isRed = onOff(isRed);
                 continue;
             }
 
@@ -81,21 +88,24 @@ public class Main {
                     default:
                         System.out.println("Invalid Choice");
                 }
-
                 if (isPig) {
                     answer = getPigString(answer);
                 }
                 if (isCap) {
                     answer = answer.toUpperCase();
                 }
+                if(isRed){
+                    answer = ANSI_RED_BACKGROUND + answer + ANSI_RESET;
+                }
                 System.out.println(answer);
             }
         }
-
+        //play games
         // print out history
     }
 
-    public static boolean isPig(boolean check){
+
+    public static boolean onOff(boolean check){
         if(check){
             return false;
         } else{
@@ -103,13 +113,6 @@ public class Main {
         }
     }
 
-    public static boolean isCap(boolean check){
-        if(check){
-            return false;
-        } else {
-            return true;
-        }
-    }
 
     public static String getReplacedString(Map replace, String question) {
         String replacedString = "";
