@@ -6,12 +6,9 @@ Now that your personal digital therapist, Eliza, is up and running, it's time to
 If you type "pig" Eliza should begin speaking in pig latin (Source: https://en.wikipedia.org/wiki/Pig_Latin ).
 
 #### Pig Latin Rules: 
-
-If the first letter is a consonant, add "ay" to the end
-
-If the first letter is a vowel, add "way" or "tay" to the end
-
-Don't worry about the "multiple-letters-that-sounds-like one" rule (ex. str-, ch-, th-, etc.)
+1. If the first letter is a consonant, add "ay" to the end
+2. If the first letter is a vowel, add "way" or "tay" to the end
+3. Don't worry about the "multiple-letters-that-sounds-like one" rule (ex. str-, ch-, th-, etc.)
 
 #### Additional Features:
 
