@@ -3,6 +3,7 @@ package com.company;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import org.junit.contrib.java.lang.system.SystemOutRule;
 
 /**
  * Now that your personal digital therapist, Eliza, is up and running, it's time to step it up with some Easter Eggs.
@@ -24,11 +25,14 @@ import java.util.Scanner;
  * <p>
  * At the end of the chat, print out the chat history.
  */
+
 public class Main {
     public static final String ANSI_RED_BACKGROUND = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
+    public static final SystemOutRule log = new SystemOutRule().enableLog();
 
     public static void main(String[] args) {
+
         String[] hedges = {
                 "Please tell me more ",
                 "Many of my patients tell me the same thing ",
@@ -104,7 +108,9 @@ public class Main {
                 System.out.println(answer);
             }
         }
+
         //print out history
+        System.out.println(log.getLog());
     }
 
     public static boolean onOff(boolean check){
@@ -145,6 +151,7 @@ public class Main {
     }
 
     //play games
+
     public static void playGame(){
         while (true) {
             Scanner keyboard = new Scanner(System.in);
