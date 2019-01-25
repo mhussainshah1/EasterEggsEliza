@@ -145,7 +145,6 @@ public class Main {
     }
 
     //play games
-
     public static void playGame(){
         while (true) {
             Scanner keyboard = new Scanner(System.in);
