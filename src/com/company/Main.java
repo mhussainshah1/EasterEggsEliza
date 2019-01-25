@@ -104,15 +104,12 @@ public class Main {
                 System.out.println(answer);
             }
         }
-
         //print out history
     }
-
 
     public static boolean onOff(boolean check){
        return !check;
     }
-
 
     public static String getReplacedString(Map replace, String question) {
         String replacedString = "";
