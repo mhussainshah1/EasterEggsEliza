@@ -49,7 +49,7 @@ public class Main {
 
         Scanner keyboard = new Scanner(System.in);
         String question, answer = "";
-        boolean isPig = false, isCap = false, isRed = false;
+        boolean isPig = false, isCap = false, isPlayGame = false, isRed = false;
 
         System.out.print("Good day. What is your problem? ");
 
@@ -67,6 +67,10 @@ public class Main {
                 continue;
             }
 
+            if (question.equalsIgnoreCase("play game")) {
+                playGame();
+                continue;
+            }
             if (question.equalsIgnoreCase("red")) {
                 isRed = onOff(isRed);
                 continue;
@@ -100,17 +104,13 @@ public class Main {
                 System.out.println(answer);
             }
         }
-        //play games
-        // print out history
+
+        //print out history
     }
 
 
     public static boolean onOff(boolean check){
-        if(check){
-            return false;
-        } else{
-            return true;
-        }
+       return !check;
     }
 
 
@@ -145,5 +145,43 @@ public class Main {
             }
         }
         return pigString;
+    }
+
+    //play games
+
+    public static void playGame(){
+        while (true) {
+            Scanner keyboard = new Scanner(System.in);
+            System.out.print("Enter 1st number: ");
+            String a = keyboard.next();
+            int n = getNumber(a);
+
+            System.out.print("Enter 2nd number: ");
+            String b = keyboard.next();
+            int m = getNumber(b);
+
+            if (m == 0 && n == 0) {
+                break;
+            } else {
+                int sum = m + n;
+                if (sum < 21) {
+                    System.out.println(sum);
+                } else {
+                    System.out.println(sum + "*");
+                }
+            }
+        }
+    }
+
+    public static int getNumber(String str) {
+        if (str.equalsIgnoreCase("J") || str.equalsIgnoreCase("Q") || str.equalsIgnoreCase("K")) {
+            return 10;
+        } else if (str.equalsIgnoreCase("A")) {
+            Scanner keyboard = new Scanner(System.in);
+            System.out.print("Enter 1 or 11 number: ");
+            int a = keyboard.nextInt();
+            return a;
+        }
+        return Integer.parseInt(str);
     }
 }
