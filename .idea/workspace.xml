@@ -14,7 +14,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../PairOfNumbers/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="method#promptUser#0;class#Main#0" />
+                <element signature="method#getNumber#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Main#0" />
+                <element signature="e#3698#3699#0" expanded="true" />
+                <element signature="e#3720#3721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,14 +55,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../PairOfNumbers/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="967" />
+=======
+    <option name="x" value="960" />
+    <option name="width" value="968" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,15 +78,20 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548370571581" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PairOfNumbers/src/com/company/Main.java" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548370100967" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,18 +132,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548363526071</updated>
+<<<<<<< HEAD
       <workItem from="1548363529401" duration="7006000" />
       <workItem from="1548425969398" duration="226000" />
+=======
+      <workItem from="1548363529401" duration="6520000" />
+      <workItem from="1548380487144" duration="2140000" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+=======
+    <option name="totallyTimeSpent" value="8660000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1757085" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -108,7 +167,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40925926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -116,7 +175,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962963" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -134,34 +197,65 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PairOfNumbers/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/../FullEliza/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="418">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+=======
+        <state relative-caret-position="295">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FullEliza/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/../PairOfNumbers/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        <state relative-caret-position="329">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="63" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-            <element signature="method#getReplacedString#0;class#Main#0" />
+            <element signature="method#promptUser#0;class#Main#0" />
+            <element signature="method#getNumber#0;class#Main#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1562">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+=======
+        <state relative-caret-position="170">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+>>>>>>> 56e226b0056eb7adaefdab80652e0aaa5c1aea86
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Main#0" />
+            <element signature="e#3698#3699#0" expanded="true" />
+            <element signature="e#3720#3721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
