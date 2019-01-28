@@ -1,9 +1,7 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import org.junit.contrib.java.lang.system.SystemOutRule;
+import java.util.*;
+//import org.junit.contrib.java.lang.system.SystemOutRule;
 
 /**
  * Now that your personal digital therapist, Eliza, is up and running, it's time to step it up with some Easter Eggs.
@@ -29,7 +27,8 @@ import org.junit.contrib.java.lang.system.SystemOutRule;
 public class Main {
     public static final String ANSI_RED_BACKGROUND = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
-    public static final SystemOutRule log = new SystemOutRule().enableLog();
+    //public static final SystemOutRule log = new SystemOutRule().enableLog();
+    public static List<String> history = new ArrayList<String>();
 
     public static void main(String[] args) {
 
@@ -55,11 +54,12 @@ public class Main {
         String question, answer = "";
         boolean isPig = false, isCap = false, isPlayGame = false, isRed = false;
 
-        System.out.print("Good day. What is your problem? ");
+        print("Good day. What is your problem? ");
 
         while (true) {
-            System.out.print("Enter your response here or Q to quit: ");
+            print("Enter your response here or Q to quit: ");
             question = keyboard.nextLine().toLowerCase();
+            input(question);
 
             if (question.equalsIgnoreCase("pig")) {
                 isPig = onOff(isPig);
@@ -81,6 +81,11 @@ public class Main {
             }
 
             if (question.equalsIgnoreCase("I am feeling great") | question.equals("q")) {
+                //print out history
+                //System.out.println(log.getLog());
+                for(String str: history){
+                    System.out.print(str);
+                }
                 break;
             } else {
                 int choice = 1 + (int) (Math.random() * 2);
@@ -94,7 +99,7 @@ public class Main {
                         answer = qualifiers[j] + getReplacedString(replace, question);
                         break;
                     default:
-                        System.out.println("Invalid Choice");
+                        println("Invalid Choice");
                 }
                 if (isPig) {
                     answer = getPigString(answer);
@@ -105,12 +110,9 @@ public class Main {
                 if(isRed){
                     answer = ANSI_RED_BACKGROUND + answer + ANSI_RESET;
                 }
-                System.out.println(answer);
+                println(answer);
             }
         }
-
-        //print out history
-        System.out.println(log.getLog());
     }
 
     public static boolean onOff(boolean check){
@@ -155,12 +157,14 @@ public class Main {
     public static void playGame(){
         while (true) {
             Scanner keyboard = new Scanner(System.in);
-            System.out.print("Enter 1st number: ");
+            print("Enter 1st number: ");
             String a = keyboard.next();
+            input(a);
             int n = getNumber(a);
 
-            System.out.print("Enter 2nd number: ");
+            print("Enter 2nd number: ");
             String b = keyboard.next();
+            input(b);
             int m = getNumber(b);
 
             if (m == 0 && n == 0) {
@@ -168,9 +172,9 @@ public class Main {
             } else {
                 int sum = m + n;
                 if (sum < 21) {
-                    System.out.println(sum);
+                    println(Integer.toString(sum));
                 } else {
-                    System.out.println(sum + "*");
+                    println(sum + "*");
                 }
             }
         }
@@ -181,10 +185,25 @@ public class Main {
             return 10;
         } else if (str.equalsIgnoreCase("A")) {
             Scanner keyboard = new Scanner(System.in);
-            System.out.print("Enter 1 or 11 number: ");
+            print("Enter 1 or 11 number: ");
             int a = keyboard.nextInt();
+            input(Integer.toString(a));
             return a;
         }
         return Integer.parseInt(str);
+    }
+
+    public static void print(String str){
+        System.out.print(str);
+        history.add(str);
+    }
+
+    public static void println(String str){
+        System.out.println(str);
+        history.add(str + "\n");
+    }
+
+    public static void input(String str){
+        history.add(str+ "\n");
     }
 }
