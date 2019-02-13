@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06779f1c-55f8-48a6-848d-723e9374f9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/EasterEggsEliza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasterEggsEliza.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EasterEggsEliza.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/META-INF/EasterEggsEliza.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/EasterEggsEliza.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/SystemOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/SystemOutTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
@@ -20,32 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4092">
-              <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;class#Main#0" />
-                <element signature="e#1294#1302#0" expanded="true" />
-                <element signature="e#6769#6770#0" expanded="true" />
-                <element signature="e#6807#6808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/EasterEggsEliza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4532">
-              <caret line="208" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="208" selection-end-column="5" />
-              <folding>
-                <element signature="e#1252#1260#0" expanded="true" />
-                <element signature="e#6783#6784#0" expanded="true" />
-                <element signature="e#6815#6816#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,16 +55,16 @@
         <option value="$PROJECT_DIR$/src/com/company/TestPrintStream.java" />
         <option value="$PROJECT_DIR$/src/com/company/Client.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/company/SystemOutTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/EasterEggsEliza.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SystemOutTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="967" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="969" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,11 +83,6 @@
             <path>
               <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -122,8 +95,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,12 +106,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548708791967" />
-    <property name="last_opened_file_path" value="C:/Java/system-rules-1.19.0.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549066725200" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,11 +206,14 @@
       <workItem from="1548425969398" duration="226000" />
       <workItem from="1548447065528" duration="3497000" />
       <workItem from="1548705109124" duration="3648000" />
+      <workItem from="1548755092965" duration="65000" />
+      <workItem from="1549066546356" duration="722000" />
+      <workItem from="1550027452601" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25492000" />
+    <option name="totallyTimeSpent" value="26623000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -249,20 +225,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18704453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="9" y="635" width="1876" height="223" id="Run" order="2" visible="true" weight="0.24777777" />
+      <window_info anchor="bottom" x="9" y="635" width="1876" height="223" id="Run" order="2" weight="0.38518518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,8 +245,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32962963" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -306,38 +281,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/EasterEggsEliza/com/company/history.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/EasterEggsEliza.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/SystemOutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/EasterEggsEliza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4532">
-          <caret line="208" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="208" selection-end-column="5" />
-          <folding>
-            <element signature="e#1252#1260#0" expanded="true" />
-            <element signature="e#6783#6784#0" expanded="true" />
-            <element signature="e#6815#6816#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4092">
-          <caret line="207" column="5" selection-start-line="207" selection-start-column="5" selection-end-line="207" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#Main#0" />
-            <element signature="e#1294#1302#0" expanded="true" />
-            <element signature="e#6769#6770#0" expanded="true" />
-            <element signature="e#6807#6808#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>

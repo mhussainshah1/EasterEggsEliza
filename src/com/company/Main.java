@@ -31,7 +31,6 @@ public class Main {
     public static List<String> history = new ArrayList<String>();
 
     public static void main(String[] args) {
-
         String[] hedges = {
                 "Please tell me more ",
                 "Many of my patients tell me the same thing ",
