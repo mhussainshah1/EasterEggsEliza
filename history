@@ -1,0 +1,25 @@
+[Welcome to Eliza
+, Good day. What is your problem? , Enter your response here or Q to quit: , hi
+, Why do you say that hi 
+, Enter your response here or Q to quit: , how are you?
+, So, you are concerned that how are you? 
+, Enter your response here or Q to quit: , are you ok?
+, Many of my patients tell me the same thing 
+, Enter your response here or Q to quit: , red
+, Enter your response here or Q to quit: , hi
+, [31mPlease tell me more [0m
+, Enter your response here or Q to quit: , caps
+, Enter your response here or Q to quit: , hello
+, [31mYOU SEEM TO THINK THAT HELLO [0m
+, Enter your response here or Q to quit: , pig
+, Enter your response here or Q to quit: , how are you?
+, [31mYOUAY SEEMAY TOAY THINKAY THATAY HOWAY ARETAY YOU?AY [0m
+, Enter your response here or Q to quit: , play game
+, [31mYOUAY SEEMAY TOAY THINKAY THATAY HOWAY ARETAY YOU?AY SO,AY YOUAY AREWAY CONCERNEDAY THATAY PLAYAY GAMEAY [0m
+, Enter your response here or Q to quit: , pig
+, Enter your response here or Q to quit: , caps
+, Enter your response here or Q to quit: , red
+, Enter your response here or Q to quit: , play game
+, Why do you say that play game 
+, Enter your response here or Q to quit: , q
+]

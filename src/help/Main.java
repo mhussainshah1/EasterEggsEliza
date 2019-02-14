@@ -1,6 +1,6 @@
-package com.company;
+package help;
 
-import java.util.*;
+ import java.util.*;
 //import org.junit.contrib.java.lang.system.SystemOutRule;
 
 /**
