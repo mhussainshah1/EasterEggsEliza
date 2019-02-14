@@ -157,12 +157,12 @@ public class Main {
         while (true) {
             Scanner keyboard = new Scanner(System.in);
             print("Enter 1st number: ");
-            String a = keyboard.next();
+            String a = keyboard.nextLine();
             input(a);
             int n = getNumber(a);
 
             print("Enter 2nd number: ");
-            String b = keyboard.next();
+            String b = keyboard.nextLine();
             input(b);
             int m = getNumber(b);
 

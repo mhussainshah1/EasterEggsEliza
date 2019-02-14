@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06779f1c-55f8-48a6-848d-723e9374f9f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company.uml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/history" beforeDir="false" afterPath="$PROJECT_DIR$/history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/ReadListOfBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/ReadListOfBooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/SystemOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/SystemOutTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/ElizaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/ElizaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/FileOperationOnList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/IColorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/IColorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/PigLatin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/PigLatin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Randomize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/DatabaseWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/DatabaseWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/HangmanApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/HangmanApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/help/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oop/ElizaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/ElizaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/game/HangmanApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/game/HangmanApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oop/util/FileOperationOnList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/util/FileOperationOnList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,81 +19,89 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/EasterEggsEliza$Main.ic" NAME="Main Coverage Results" MODIFIED="1550170840065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>help.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ElizaApp#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/help/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="75" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="method#welcome#0;class#HangmanApp#0" />
-                <element signature="method#process#0;class#HangmanApp#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4609619">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="docComment;class#ElizaApp#0" />
+                    <element signature="e#1193#1194#0" expanded="true" />
+                    <element signature="e#1242#1243#0" expanded="true" />
+                    <element signature="e#1409#1410#0" expanded="true" />
+                    <element signature="e#1440#1441#0" expanded="true" />
+                    <element signature="class#HangmanApp#0;class#ElizaApp#0" />
+                    <element signature="e#4727#4728#0" expanded="true" />
+                    <element signature="e#4776#4777#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="201">
+                  <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#259#260#0" expanded="true" />
+                    <element signature="e#1441#1442#0" expanded="true" />
+                    <element signature="e#1490#1491#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="355">
+                  <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#629#630#0" expanded="true" />
+                    <element signature="e#660#661#0" expanded="true" />
+                    <element signature="e#714#715#0" expanded="true" />
+                    <element signature="e#754#755#0" expanded="true" />
+                    <element signature="e#789#790#0" expanded="true" />
+                    <element signature="e#820#821#0" expanded="true" />
+                    <element signature="e#868#869#0" expanded="true" />
+                    <element signature="e#908#909#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/history">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="802">
+                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,14 +113,18 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>system</find>
-      <find>next</find>
       <find>&quot;&quot;</find>
       <find>random</find>
       <find>history</find>
       <find>out</find>
       <find>toString</find>
+      <find>system</find>
+      <find>next</find>
+      <find>next()</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\GBTC440010ur\IdeaProjects\EasterEggsEliza</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/com/company/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/company/game/HangmanApp.java" />
         <option value="$PROJECT_DIR$/src/com/company/Options.java" />
-        <option value="$PROJECT_DIR$/src/help/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/IConstants.java" />
         <option value="$PROJECT_DIR$/src/com/company/IColorCode.java" />
         <option value="$PROJECT_DIR$/src/com/company/Response.java" />
@@ -151,16 +153,18 @@
         <option value="$PROJECT_DIR$/src/com/company/FileOperationOnList.java" />
         <option value="$PROJECT_DIR$/src/com/company/ElizaApp.java" />
         <option value="$PROJECT_DIR$/src/oop/FileOperationOnList.java" />
-        <option value="$PROJECT_DIR$/src/oop/game/HangmanApp.java" />
         <option value="$PROJECT_DIR$/history" />
-        <option value="$PROJECT_DIR$/src/oop/util/FileOperationOnList.java" />
-        <option value="$PROJECT_DIR$/src/oop/ElizaApp.java" />
         <option value="$PROJECT_DIR$/src/oop/Response.java" />
+        <option value="$PROJECT_DIR$/src/help/Main.java" />
+        <option value="$PROJECT_DIR$/src/oop/game/HangmanApp.java" />
+        <option value="$PROJECT_DIR$/src/oop/ElizaApp.java" />
+        <option value="$PROJECT_DIR$/src/oop/util/FileOperationOnList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
+    <option name="x" value="937" />
+    <option name="y" value="13" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
   </component>
@@ -177,11 +181,6 @@
             <path>
               <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
@@ -228,8 +227,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550169513957" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EasterEggsElizaForm" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550177222019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -254,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ElizaApp">
     <configuration name="ElizaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.ElizaApp" />
       <module name="EasterEggsEliza" />
@@ -326,7 +325,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57733000" />
+    <option name="totallyTimeSpent" value="65479000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -338,10 +337,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" x="9" y="635" width="1876" height="223" id="Run" order="2" visible="true" weight="0.3489933" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="10" weight="0.34689265" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.67785233" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,50 +391,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="10" weight="0.34787473" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="10" weight="0.34689265" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.67785233" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32997763" />
-      <window_info anchor="bottom" x="9" y="635" width="1876" height="223" id="Run" order="2" weight="0.29306486" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962963" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company.uml" />
     <entry file="file://$PROJECT_DIR$/src/help/SystemOutTest.java" />
     <entry file="file://$PROJECT_DIR$/src/help/ReadListOfBooks.java" />
     <entry file="file://$PROJECT_DIR$/src/oop/game/DatabaseWord.java" />
@@ -511,30 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -542,21 +518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="method#welcome#0;class#HangmanApp#0" />
-            <element signature="method#process#0;class#HangmanApp#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/help/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="75" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -567,21 +532,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/company.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="300.0" y="384.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/oop">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>oop</OriginalElement>
+          <nodes>
+            <node x="" y="">oop.Response</node>
+            <node x="" y="">oop.game.HangmanApp</node>
+            <node x="" y="">oop.game.DatabaseWord</node>
+            <node x="" y="">oop.util.FileOperationOnList</node>
+            <node x="" y="">oop.ElizaApp</node>
+            <node x="" y="">oop.game.Game</node>
+            <node x="" y="">oop.IColorCode</node>
+            <node x="" y="">oop.PigLatin</node>
+            <node x="" y="">oop.util.Randomize</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6230483271375464" x="595.5" y="662.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>oop</OriginalElement>
+          <nodes>
+            <node x="" y="">oop.Response</node>
+            <node x="" y="">oop.game.HangmanApp</node>
+            <node x="" y="">oop.game.DatabaseWord</node>
+            <node x="" y="">oop.util.FileOperationOnList</node>
+            <node x="" y="">oop.ElizaApp</node>
+            <node x="" y="">oop.game.Game</node>
+            <node x="" y="">oop.IColorCode</node>
+            <node x="" y="">oop.PigLatin</node>
+            <node x="" y="">oop.util.Randomize</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9230483271375464" x="596.0" y="541.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/help/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="462">
+          <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#ElizaApp#0" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="class#HangmanApp#0;class#ElizaApp#0" />
+            <element signature="e#4727#4728#0" expanded="true" />
+            <element signature="e#4776#4777#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="201">
+          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

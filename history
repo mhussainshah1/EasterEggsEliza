@@ -1,12 +1,63 @@
-[Welcome to Eliza
-Good day , I remember, Last time you were talking about Good day , I remember, Last time you were talking about Good day , I remember, Last time you were talking about 
-, What is your problem? , Enter your response here or Q to quit: , play games
-, Please tell me more 
-, Enter your response here or Q to quit: , play game
-, Welcome, let's play hangman!
+Welcome to Eliza
+Good day , I remember, Last time you were talking about What is your problem? Enter your response here or Q to quit: hi 
+What is your problem? Enter your response here or Q to quit: play game
+Welcome, let's play hangman!
 Here is the word I am thinking of: 
-, 
+----------
+
+Enter your guess or $ for Lifeline: a
+Your guess so far:a---------
+
+Enter your guess or $ for Lifeline: e
+Your guess so far:a------e--
+
+Enter your guess or $ for Lifeline: i
+You have guessed incorrectly 1/6 times.
+Your guess so far:a------e--
+
+Enter your guess or $ for Lifeline: o
+You have guessed incorrectly 2/6 times.
+Your guess so far:a------e--
+
+Enter your guess or $ for Lifeline: u
+Your guess so far:a--u---e--
+
+Enter your guess or $ for Lifeline: n
+Your guess so far:a--u---en-
+
+Enter your guess or $ for Lifeline: t
+Your guess so far:a--u-t-ent
+
+Enter your guess or $ for Lifeline: f
+You have guessed incorrectly 3/6 times.
+Your guess so far:a--u-t-ent
+
+Enter your guess or $ for Lifeline: l
+You have guessed incorrectly 4/6 times.
+Your guess so far:a--u-t-ent
+
+Enter your guess or $ for Lifeline: n
+Your guess so far:a--u-t-ent
+
+Enter your guess or $ for Lifeline:      $
+You have guessed incorrectly 5/6 times.
+Your guess so far:a--u-t-ent
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:ad-u-t-ent
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:adju-t-ent
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:adjust-ent
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:adjustment
+
+You've won! The word was adjustment
+
 Thank you for playing!
-, Enter your response here or Q to quit: , q
-, Thank you for using Eliza
-]
+Enter your response here or Q to quit: q
+Thank you for using Eliza
+

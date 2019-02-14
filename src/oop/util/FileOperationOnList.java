@@ -48,7 +48,13 @@ public class FileOperationOnList {
     public void writeFile() throws FileNotFoundException {
         File file = new File(filename);
         PrintWriter writer = new PrintWriter(file);
-        writer.println(document);
+
+        StringBuilder builder = new StringBuilder();
+        for (String value : document) {
+            builder.append(value);
+        }
+        //String text = builder.toString();
+        writer.println(builder);
         writer.close();
     }
 
