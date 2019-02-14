@@ -1,5 +1,7 @@
 package oop;
 
+import oop.util.FileOperationOnList;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,17 +30,16 @@ import java.util.Scanner;
 
 public class ElizaApp {
 
-    public static List<String> history = new ArrayList<String>();
+    public List<String> history = new ArrayList<String>();
 
     public static void main(String[] args) {
-        welcome();
-        process();
-        exit();
+        ElizaApp app = new ElizaApp();
+        app.println(app.welcome());
+        app.process();
+        app.println(app.exit());
     }
 
-    public static void welcome() {
-        println("Welcome to Eliza");
-
+    public String welcome() {
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.readFile();
@@ -46,10 +47,11 @@ public class ElizaApp {
             e.printStackTrace();
         }
         int index = (int)(Math.random() * fo.getDocument().size());
-        System.out.println("Good day , I remember, Last time you were talking about " + fo.getDocument().get(index));
+        return "Welcome to Eliza\n"+
+                "Good day , I remember, Last time you were talking about " + fo.getDocument().get(index);
     }
 
-    public static void process() {
+    public void process() {
         Response response = new Response();
         Scanner keyboard = new Scanner(System.in);
         String question = "";
@@ -70,28 +72,29 @@ public class ElizaApp {
         }
     }
 
-    public static void exit() {
+    public String exit() {
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.writeFile();
         } catch (IOException e){
             e.printStackTrace();
         }
+        return "Thank you for using Eliza";
     }
 
     //output
-    public static void print(String str) {
+    public void print(String str) {
         System.out.print(str);
         history.add(str);
     }
 
-    public static void println(String str) {
+    public void println(String str) {
         System.out.println(str);
         history.add(str + "\n");
     }
 
     //input
-    public static void input(String str) {
+    public void input(String str) {
         history.add(str + "\n");
     }
 }

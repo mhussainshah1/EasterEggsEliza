@@ -1,6 +1,6 @@
 package oop.game;
 
-import oop.Randomize;
+import oop.util.Randomize;
 
 public class Game {
     private String guess;

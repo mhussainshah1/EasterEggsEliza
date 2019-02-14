@@ -1,6 +1,7 @@
 package oop;
 
 import oop.game.HangmanApp;
+import oop.util.Randomize;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -76,11 +77,11 @@ public class Response {
         int choice = random.getRandomNumber(1, 2);
         switch (choice) {
             case 1:
-                int i = (int) (Math.random() * hedges.length);
+                int i = random.getRandomNumber(0, hedges.length);
                 answer = hedges[i];
                 break;
             case 2:
-                int j = (int) (Math.random() * qualifiers.length);
+                int j = random.getRandomNumber(0, qualifiers.length);
                 answer = qualifiers[j] + getReplacedString(replace, question);
                 break;
             default:

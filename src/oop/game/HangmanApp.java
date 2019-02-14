@@ -5,17 +5,18 @@ import java.util.Scanner;
 public class HangmanApp {
 
     public static void main(String[] args) {
-        welcome();
-        process();
-        exit();
+        HangmanApp app = new HangmanApp();
+        System.out.println(app.welcome());
+        app.process();
+        System.out.println(app.exit());
     }
 
-    public static void welcome() {
-        System.out.println("Welcome, let's play hangman!");
-        System.out.print("Here is the word I am thinking of: ");
+    public String welcome() {
+        return  "Welcome, let's play hangman!\n"+
+                "Here is the word I am thinking of: ";
     }
 
-    public static void process() {
+    public void process() {
         Game game = new Game();
         String word = game.getWord();
         System.out.print(game.getBlanks());
@@ -45,7 +46,7 @@ public class HangmanApp {
         }
     }
 
-    public static void exit() {
-        System.out.println("\nThank you for playing!");
+    public String exit() {
+        return "\nThank you for playing!";
     }
 }
