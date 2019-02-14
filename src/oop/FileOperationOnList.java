@@ -20,7 +20,6 @@ public class FileOperationOnList {
     }
 
     //Getter and Setter
-
     public List<String> getDocument() {
         return document;
     }
@@ -42,9 +41,6 @@ public class FileOperationOnList {
         File file = new File(filename);
         if (file.exists()) {
             document = readLines(file);
-        }
-        for (String line : document) {
-            System.out.println(line);
         }
     }
 

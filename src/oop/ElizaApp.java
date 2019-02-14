@@ -38,20 +38,22 @@ public class ElizaApp {
 
     public static void welcome() {
         println("Welcome to Eliza");
+
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.readFile();
         } catch (IOException e){
             e.printStackTrace();
         }
-        System.out.println("Last time you were talking about " + history.get(8));
+        int index = (int)(Math.random() * fo.getDocument().size());
+        System.out.println("Good day , I remember, Last time you were talking about " + fo.getDocument().get(index));
     }
 
     public static void process() {
         Response response = new Response();
         Scanner keyboard = new Scanner(System.in);
         String question = "";
-        print("Good day. What is your problem? ");
+        print("What is your problem? ");
 
         while (true) {
             print("Enter your response here or Q to quit: ");
@@ -69,10 +71,6 @@ public class ElizaApp {
     }
 
     public static void exit() {
-        //print out document
-        for (String str : history) {
-            System.out.print(str);
-        }
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.writeFile();
