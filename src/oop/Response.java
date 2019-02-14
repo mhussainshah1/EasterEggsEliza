@@ -102,14 +102,12 @@ public class Response {
             case "red":
                 isRed = !isRed;
                 break;
-            case "play games":
-                HangmanApp.main(new String[0]);
-                break;
+//            case "play games":
+//                HangmanApp.main(new String[0]);
+//                break;
             default:
                 return false;
         }
         return true;
     }
-
-
 }

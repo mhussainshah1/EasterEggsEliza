@@ -1,4 +1,12 @@
 [Welcome to Eliza
-Good day , I remember, Last time you were talking about , Enter your response here or Q to quit: , pig
-, What is your problem? , Enter your response here or Q to quit: , q
+Good day , I remember, Last time you were talking about Good day , I remember, Last time you were talking about Good day , I remember, Last time you were talking about 
+, What is your problem? , Enter your response here or Q to quit: , play games
+, Please tell me more 
+, Enter your response here or Q to quit: , play game
+, Welcome, let's play hangman!
+Here is the word I am thinking of: 
+, 
+Thank you for playing!
+, Enter your response here or Q to quit: , q
+, Thank you for using Eliza
 ]

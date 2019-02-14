@@ -1,5 +1,7 @@
 package oop;
 
+import oop.game.Game;
+import oop.game.HangmanApp;
 import oop.util.FileOperationOnList;
 
 import java.io.IOException;
@@ -30,25 +32,30 @@ import java.util.Scanner;
 
 public class ElizaApp {
 
-    public List<String> history = new ArrayList<String>();
+    public List<String> history;
 
     public static void main(String[] args) {
         ElizaApp app = new ElizaApp();
-        app.println(app.welcome());
+        System.out.println(app.welcome());
         app.process();
-        app.println(app.exit());
+        System.out.println(app.exit());
     }
 
     public String welcome() {
+        history = new ArrayList<String>();
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.readFile();
         } catch (IOException e){
             e.printStackTrace();
         }
-        int index = (int)(Math.random() * fo.getDocument().size());
-        return "Welcome to Eliza\n"+
-                "Good day , I remember, Last time you were talking about " + fo.getDocument().get(index);
+        history = fo.getDocument();
+        int index = (int)(Math.random() * history.size());
+        String item = history.get(index);
+        history.clear();
+        return input("Welcome to Eliza\n"+
+                        "Good day , I remember, Last time you were talking about " + item);
+
     }
 
     public void process() {
@@ -59,10 +66,16 @@ public class ElizaApp {
 
         while (true) {
             print("Enter your response here or Q to quit: ");
-            question = keyboard.nextLine().toLowerCase();
-            input(question);
+            question =  input(keyboard.nextLine().toLowerCase());
             if((question.equalsIgnoreCase("I am feeling great") | question.equals("q"))){
                 break;
+            }
+            if (question.equalsIgnoreCase("play game")) {
+                HangmanApp game = new HangmanApp();
+                println(game.welcome());
+                processGame();
+                println(game.exit());
+                continue;
             }
             if (response.isOptions(question)) {
                 continue;
@@ -73,13 +86,14 @@ public class ElizaApp {
     }
 
     public String exit() {
+        String exit =  input("Thank you for using Eliza");
         FileOperationOnList fo = new FileOperationOnList(history,"history");
         try{
             fo.writeFile();
         } catch (IOException e){
             e.printStackTrace();
         }
-        return "Thank you for using Eliza";
+        return exit;
     }
 
     //output
@@ -94,7 +108,39 @@ public class ElizaApp {
     }
 
     //input
-    public void input(String str) {
-        history.add(str + "\n");
+    public String input(String str) {
+        history.add(str+ "\n");
+        return str;
+    }
+
+    //play game
+    public void processGame() {
+        Game game = new Game();
+        String word = game.getWord();
+        System.out.print(game.getBlanks());
+        System.out.println();
+
+        Scanner keyboard = new Scanner(System.in);
+
+        int i = 1;
+        while (i < 7) {
+            System.out.print("\nEnter your guess or $ for Lifeline: ");
+            game.setGuess(keyboard.next());
+
+            if (word.contains(game.getGuess()) || game.getGuess().equals("$")) {
+                System.out.println(game.playGame());
+                if (game.getBuilder().indexOf("-") == -1) {
+                    System.out.println(game.wonGame());
+                    break;
+                }
+            } else {
+                System.out.println("You have guessed incorrectly " + i + "/6 times.");
+                System.out.println(game.getStatus());
+                if (i == 6) {
+                    System.out.println(game.looseGame());
+                }
+                i++;
+            }
+        }
     }
 }

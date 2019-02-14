@@ -11,12 +11,12 @@ public class FileOperationOnList {
     //constructor
     public FileOperationOnList(){
         document = new ArrayList<String>();
-        filename = (System.getProperty("user.dir") + File.separatorChar + "history.txt");
+        filename = System.getProperty("user.dir") + File.separatorChar + "history.txt";
     }
 
     public FileOperationOnList(List<String> document, String filename) {
         this.document = document;
-        this.filename = filename;
+        this.filename = System.getProperty("user.dir") + File.separatorChar + filename;
     }
 
     //Getter and Setter
@@ -54,7 +54,7 @@ public class FileOperationOnList {
 
     public List<String> readLines(File file) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(file));
-        List<String> results = new ArrayList<String>();
+        List<String> results = new ArrayList<>();
         String line = reader.readLine();
         while (line != null) {
             results.add(line);
