@@ -3,19 +3,82 @@
   <ID>JAVA</ID>
   <OriginalElement>oop</OriginalElement>
   <nodes>
-    <node x="0.0" y="0.0">oop.Response</node>
-    <node x="618.0" y="463.0">oop.game.HangmanApp</node>
-    <node x="349.0" y="463.0">oop.game.DatabaseWord</node>
-    <node x="0.0" y="463.0">oop.util.FileOperationOnList</node>
-    <node x="622.0" y="0.0">oop.ElizaApp</node>
-    <node x="332.0" y="0.0">oop.game.Game</node>
-    <node x="550.0" y="710.0">oop.IColorCode</node>
-    <node x="0.0" y="710.0">oop.PigLatin</node>
-    <node x="262.0" y="710.0">oop.util.Randomize</node>
+    <node x="393.5056818181818" y="594.0">oop.Response</node>
+    <node x="0.0" y="0.0">oop.game.DatabaseWord</node>
+    <node x="678.5056818181818" y="693.0">oop.util.FileOperationOnList</node>
+    <node x="229.0" y="1048.0">oop.ElizaApp</node>
+    <node x="59.92045454545456" y="225.0">oop.game.Game</node>
+    <node x="349.0625" y="335.5">oop.PigLatin</node>
+    <node x="573.0625" y="347.5">oop.IColorCode</node>
+    <node x="86.75568181818181" y="727.0">oop.ElizaApp.HangmanApp</node>
+    <node x="248.7556818181818" y="45.0">oop.util.Randomize</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="0.9230483271375464" x="596.0000000000002" y="540.7591623036649" />
+  <edges>
+    <edge source="oop.ElizaApp" target="oop.ElizaApp.HangmanApp">
+      <point x="-53.125" y="-126.5" />
+      <point x="260.875" y="1018.0" />
+      <point x="144.5056818181818" y="1018.0" />
+      <point x="-19.25" y="59.0" />
+    </edge>
+    <edge source="oop.ElizaApp" target="oop.Response">
+      <point x="10.625" y="-126.5" />
+      <point x="324.625" y="998.0" />
+      <point x="459.7556818181818" y="998.0" />
+      <point x="-66.25" y="192.0" />
+    </edge>
+    <edge source="oop.Response" target="oop.util.Randomize">
+      <point x="-106.0" y="-192.0" />
+      <point x="420.0056818181818" y="574.0" />
+      <point x="338.5625" y="574.0" />
+      <point x="338.5625" y="205.0" />
+      <point x="391.2556818181818" y="205.0" />
+      <point x="28.5" y="37.5" />
+    </edge>
+    <edge source="oop.game.Game" target="oop.game.DatabaseWord">
+      <point x="-28.375" y="-159.5" />
+      <point x="145.04545454545456" y="205.0" />
+      <point x="155.25" y="205.0" />
+      <point x="51.75" y="82.5" />
+    </edge>
+    <edge source="oop.ElizaApp.HangmanApp" target="oop.game.Game">
+      <point x="-38.5" y="-59.0" />
+      <point x="125.25568181818181" y="574.0" />
+      <point x="116.67045454545456" y="574.0" />
+      <point x="-56.75" y="159.5" />
+    </edge>
+    <edge source="oop.Response" target="oop.PigLatin">
+      <point x="-53.0" y="-192.0" />
+      <point x="473.0056818181818" y="564.0" />
+      <point x="400.0625" y="564.0" />
+      <point x="-51.0" y="49.0" />
+    </edge>
+    <edge source="oop.Response" target="oop.IColorCode">
+      <point x="53.0" y="-192.0" />
+      <point x="579.0056818181818" y="564.0" />
+      <point x="691.5625" y="564.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="oop.ElizaApp.HangmanApp" target="oop.ElizaApp">
+      <point x="19.25" y="59.0" />
+      <point x="183.0056818181818" y="1008.0" />
+      <point x="282.125" y="1008.0" />
+      <point x="-31.875" y="-126.5" />
+    </edge>
+    <edge source="oop.ElizaApp" target="oop.util.FileOperationOnList">
+      <point x="53.125" y="-126.5" />
+      <point x="367.125" y="1018.0" />
+      <point x="749.0056818181818" y="1018.0" />
+      <point x="-70.5" y="93.0" />
+    </edge>
+    <edge source="oop.game.Game" target="oop.util.Randomize">
+      <point x="28.375" y="-159.5" />
+      <point x="201.79545454545456" y="185.0" />
+      <point x="277.2556818181818" y="185.0" />
+      <point x="-85.5" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6136363636363635" x="391.5" y="376.00000000000006" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

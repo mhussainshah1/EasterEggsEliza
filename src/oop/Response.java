@@ -1,6 +1,5 @@
 package oop;
 
-import oop.game.HangmanApp;
 import oop.util.Randomize;
 
 import java.util.HashMap;

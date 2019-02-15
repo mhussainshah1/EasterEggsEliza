@@ -1,7 +1,6 @@
 package oop;
 
 import oop.game.Game;
-import oop.game.HangmanApp;
 import oop.util.FileOperationOnList;
 
 import java.io.IOException;
@@ -52,7 +51,7 @@ public class ElizaApp {
 
     public String welcome() {
         history = new ArrayList<String>();
-        FileOperationOnList fo = new FileOperationOnList(history, "history");
+        FileOperationOnList fo = new FileOperationOnList(history, "history.txt");
         try {
             fo.readFile();
         } catch (IOException e) {
@@ -61,9 +60,9 @@ public class ElizaApp {
         history = fo.getDocument();
         String item = "";
         do {
-            int index = 2+ (int) (Math.random()* (history.size()-1)); // from line 3 to second last item
+            int index = 2 + (int) (Math.random()* (history.size()-1)); // from line 3 to second last item
             item = history.get(index);
-        } while(item.equals(",") || item.equals("$"));
+        } while(item.equals("") || item.equals("$"));
 
         history.clear();
         return input("Welcome to Eliza\n" +
@@ -83,7 +82,7 @@ public class ElizaApp {
                 break;
             }
             if (question.equalsIgnoreCase("play game")) {
-                HangmanApp app = new HangmanApp(this);
+                HangmanApp app = new HangmanApp();
                 app.playGame();
                 continue;
             }
@@ -93,17 +92,6 @@ public class ElizaApp {
                 println(response.getAnswer(question));
             }
         }
-    }
-
-    public String exit() {
-        String exit = input("Thank you for using Eliza");
-        FileOperationOnList fo = new FileOperationOnList(history, "history");
-        try {
-            fo.writeFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return exit;
     }
 
     //output
@@ -123,8 +111,23 @@ public class ElizaApp {
         return str;
     }
 
+    public String exit() {
+        String exit = input("Thank you for using Eliza");
+        FileOperationOnList fo = new FileOperationOnList(history, "history.txt");
+        try {
+            fo.writeFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return exit;
+    }
+
     //play game
-    class HangmanApp2 {
+    public class HangmanApp {
+        Game game;
+        HangmanApp(){
+            game = new Game();
+        }
         public void playGame() {
             println(welcome());
             process();
@@ -133,34 +136,14 @@ public class ElizaApp {
 
         public String welcome() {
             return  "Welcome, let's play hangman!\n"+
-                    "Here is the word I am thinking of: ";
+                    "Here is the word I am thinking of:" + game.getBlanks() +"\n";
         }
 
         public void process() {
-            Game game = new Game();
-            String word = game.getWord();
-            print(game.getBlanks());
-            println("");
-
-            int i = 1;
-            while (i < 7) {
-                print("\nEnter your guess or $ for Lifeline: ");
-                game.setGuess(input(keyboard.nextLine()));
-
-                if (word.contains(game.getGuess()) || game.getGuess().equals("$")) {
-                    println(game.playGame());
-                    if (game.getBuilder().indexOf("-") == -1) {
-                        println(game.wonGame());
-                        break;
-                    }
-                } else {
-                    println("You have guessed incorrectly " + i + "/6 times.");
-                    println(game.getStatus());
-                    if (i == 6) {
-                        println(game.looseGame());
-                    }
-                    i++;
-                }
+            while (game.isPlay()) {
+                print("Enter your guess or $ for Lifeline: ");
+                game.setGuess(input(getKeyboard().nextLine()));
+                println(game.getResult());
             }
         }
 

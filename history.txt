@@ -1,0 +1,56 @@
+Welcome to Eliza
+Good day , I remember, Last time you were talking about Thank you for using Eliza
+What is your problem? Enter your response here or Q to quit: play game
+Welcome, let's play hangman!
+Here is the word I am thinking of:-------
+
+Enter your guess or $ for Lifeline: a
+You have guessed incorrectly 1/6 times.
+Your guess so far:-------
+
+Enter your guess or $ for Lifeline: e
+Your guess so far:-e-----
+
+
+Enter your guess or $ for Lifeline: i
+Your guess so far:-e-i---
+
+
+Enter your guess or $ for Lifeline: o
+Your guess so far:-e-io--
+
+
+Enter your guess or $ for Lifeline: u
+You have guessed incorrectly 2/6 times.
+Your guess so far:-e-io--
+
+Enter your guess or $ for Lifeline: s
+Your guess so far:-e-io-s
+
+
+Enter your guess or $ for Lifeline: t
+You have guessed incorrectly 3/6 times.
+Your guess so far:-e-io-s
+
+Enter your guess or $ for Lifeline: n
+You have guessed incorrectly 4/6 times.
+Your guess so far:-e-io-s
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:pe-io-s
+
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:perio-s
+
+
+Enter your guess or $ for Lifeline: $
+Your guess so far:periods
+
+
+You've won! The word was periods
+
+Thank you for playing!
+Enter your response here or Q to quit: q
+Thank you for using Eliza
+
