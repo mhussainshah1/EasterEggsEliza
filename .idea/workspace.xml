@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06779f1c-55f8-48a6-848d-723e9374f9f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop.uml" beforeDir="false" afterPath="$PROJECT_DIR$/oop.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/ReadListOfBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/ReadListOfBooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/SystemOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/SystemOutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/ElizaApp$HangmanApp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/ElizaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/ElizaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/IColorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/IColorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/PigLatin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/PigLatin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/DatabaseWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/DatabaseWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/HangmanApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/util/FileOperationOnList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/util/FileOperationOnList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/util/Randomize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/util/Randomize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/ElizaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/ElizaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/game/HangmanApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,142 +22,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="144" column="54" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="54" />
+            <state relative-caret-position="45">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ElizaApp#0" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3734#3735#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/Response.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+            <state relative-caret-position="1659">
+              <caret line="144" column="54" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#ElizaApp#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/oop/game/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-              <folding>
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#2032#2033#0" expanded="true" />
-                <element signature="e#2262#2263#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="432">
+                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/oop">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>oop</OriginalElement>
-              <nodes>
-                <node x="393.5056818181818" y="594.0">oop.Response</node>
-                <node x="0.0" y="0.0">oop.game.DatabaseWord</node>
-                <node x="678.5056818181818" y="693.0">oop.util.FileOperationOnList</node>
-                <node x="228.9999999999999" y="1048.0">oop.ElizaApp</node>
-                <node x="59.92045454545445" y="225.0">oop.game.Game</node>
-                <node x="349.06249999999994" y="335.5">oop.PigLatin</node>
-                <node x="573.0625" y="347.5">oop.IColorCode</node>
-                <node x="86.75568181818164" y="727.0">oop.ElizaApp.HangmanApp</node>
-                <node x="248.75568181818176" y="45.0">oop.util.Randomize</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="oop.ElizaApp" target="oop.ElizaApp.HangmanApp">
-                  <point x="-53.125" y="-126.5" />
-                  <point x="260.8749999999999" y="1018.0" />
-                  <point x="144.50568181818164" y="1018.0" />
-                  <point x="-19.25" y="59.0" />
-                </edge>
-                <edge source="oop.ElizaApp" target="oop.Response">
-                  <point x="10.625" y="-126.5" />
-                  <point x="324.6249999999999" y="998.0" />
-                  <point x="459.7556818181818" y="998.0" />
-                  <point x="-66.25" y="192.0" />
-                </edge>
-                <edge source="oop.Response" target="oop.util.Randomize">
-                  <point x="-106.00000000000006" y="-192.0" />
-                  <point x="420.00568181818176" y="574.0" />
-                  <point x="338.56249999999994" y="574.0" />
-                  <point x="338.56249999999994" y="205.0" />
-                  <point x="391.25568181818176" y="205.0" />
-                  <point x="28.5" y="37.5" />
-                </edge>
-                <edge source="oop.game.Game" target="oop.game.DatabaseWord">
-                  <point x="-28.374999999999886" y="-159.5" />
-                  <point x="145.04545454545456" y="205.0" />
-                  <point x="155.25" y="205.0" />
-                  <point x="51.75" y="82.5" />
-                </edge>
-                <edge source="oop.ElizaApp.HangmanApp" target="oop.game.Game">
-                  <point x="-38.5" y="-59.0" />
-                  <point x="125.25568181818164" y="574.0" />
-                  <point x="116.67045454545445" y="574.0" />
-                  <point x="-56.75" y="159.5" />
-                </edge>
-                <edge source="oop.Response" target="oop.PigLatin">
-                  <point x="-53.00000000000006" y="-192.0" />
-                  <point x="473.00568181818176" y="564.0" />
-                  <point x="400.06249999999994" y="564.0" />
-                  <point x="-51.0" y="49.0" />
-                </edge>
-                <edge source="oop.Response" target="oop.IColorCode">
-                  <point x="52.99999999999994" y="-192.0" />
-                  <point x="579.0056818181818" y="564.0" />
-                  <point x="691.5625" y="564.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="oop.ElizaApp.HangmanApp" target="oop.ElizaApp">
-                  <point x="19.25" y="59.0" />
-                  <point x="183.00568181818164" y="1008.0" />
-                  <point x="282.1249999999999" y="1008.0" />
-                  <point x="-31.875" y="-126.5" />
-                </edge>
-                <edge source="oop.ElizaApp" target="oop.util.FileOperationOnList">
-                  <point x="53.125" y="-126.5" />
-                  <point x="367.1249999999999" y="1018.0" />
-                  <point x="749.0056818181818" y="1018.0" />
-                  <point x="-70.5" y="93.0" />
-                </edge>
-                <edge source="oop.game.Game" target="oop.util.Randomize">
-                  <point x="28.375000000000114" y="-159.5" />
-                  <point x="201.79545454545456" y="185.0" />
-                  <point x="277.25568181818176" y="185.0" />
-                  <point x="-85.5" y="37.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.6136363636363635" x="-9.388888888888914" y="371.1111111111112" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/oop/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1746">
+              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -241,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/oop/Response.java" />
         <option value="$PROJECT_DIR$/src/oop/ElizaApp.java" />
         <option value="$PROJECT_DIR$/src/oop/game/Game.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -257,6 +151,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,12 +163,6 @@
               <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasterEggsEliza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="help" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasterEggsEliza" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73354000" />
+    <option name="totallyTimeSpent" value="73657000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -424,7 +312,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21295546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21619433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,13 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/history" />
     <entry file="file://$PROJECT_DIR$/src/help/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -601,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/util/FileOperationOnList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        <state relative-caret-position="45">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#629#630#0" expanded="true" />
@@ -624,18 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/game/HangmanApp.java" />
     <entry file="uml://JAVA/oop">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -717,7 +588,7 @@
               <point x="-85.5" y="37.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6136363636363635" x="-9.388888888888914" y="371.1111111111112" />
+          <settings layout="Hierarchic Group" zoom="0.6136363636363635" x="-9.0" y="371.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -741,31 +612,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShotScreen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/ElizaApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="1659">
           <caret line="144" column="54" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#ElizaApp#0" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3734#3735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
-          <folding>
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2262#2263#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
