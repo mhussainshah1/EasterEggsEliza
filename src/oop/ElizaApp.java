@@ -1,7 +1,7 @@
 package oop;
 
-import oop.game.Game;
-import oop.util.FileOperationOnList;
+import game.Game;
+import util.FileOperationOnList;
 
 import java.io.IOException;
 import java.util.ArrayList;

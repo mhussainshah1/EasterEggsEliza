@@ -1,6 +1,6 @@
-package oop.game;
+package game;
 
-import oop.util.Randomize;
+import util.Randomize;
 
 public class Game {
     private int gameCounter;

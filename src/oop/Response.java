@@ -1,6 +1,6 @@
 package oop;
 
-import oop.util.Randomize;
+import util.Randomize;
 
 import java.util.HashMap;
 import java.util.Map;

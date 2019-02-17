@@ -19,6 +19,3 @@ If you type "play game" Eliza should allow you to play a game, such as your choo
 If you type in "red" Eliza 's text should be displayed in red. 
 
 At the end of the chat, print out the chat history.
-
-![alt text](https://github.com/mhussainshah1/EasterEggsEliza/blob/master/ShotScreen.png "Logo Title Text 1")
-

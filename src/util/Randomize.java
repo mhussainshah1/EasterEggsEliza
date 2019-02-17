@@ -1,4 +1,4 @@
-package oop.util;
+package util;
 
 public class Randomize {
     private int randomNumber; //readable property
