@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06779f1c-55f8-48a6-848d-723e9374f9f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/help/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EasterEggsEliza/oop/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/PigLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/PigLatin.java" afterDir="false" />
-    </list>
+    <list default="true" id="06779f1c-55f8-48a6-848d-723e9374f9f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +168,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550365323928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550367409763" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -272,12 +265,12 @@
       <workItem from="1550191669574" duration="724000" />
       <workItem from="1550202698115" duration="5445000" />
       <workItem from="1550352503752" duration="98000" />
-      <workItem from="1550363767118" duration="1311000" />
+      <workItem from="1550363767118" duration="1975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79689000" />
+    <option name="totallyTimeSpent" value="80353000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -292,7 +285,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
