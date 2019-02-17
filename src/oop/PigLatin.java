@@ -9,6 +9,7 @@ public class PigLatin {
     }
 
     public String getPigString(String str) {
+        pigString = "";
         for (String retval : str.split(" ")) {
             char v = retval.charAt(0);
             if (v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u') {
